@@ -1,0 +1,45 @@
+:root {
+	--bg-body: url('./../images/bg.jpg');
+	--title-text: #333;
+	--text: #000;
+	--box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+	--bg: #FFF;
+	--arrow-down: url('./../images/icon/arrow-down-black.svg');
+	--input-placeholder: rgba(51, 51, 51, 0.51);
+	--hover-color: #EFEFEF;
+	--color-select-chapter: linear-gradient(91deg, rgba(132, 80, 243, 0.34) 41.5%, rgba(5, 0, 255, 0.34) 90.47%), rgba(217, 217, 217, 0.03);
+	--color-border-tack: #D8D8D8;
+	--border: none;
+	--color-icon-team: black;
+	--color-point-team: #D9D9D9;
+	--shadow-select-team: 0px 0px 4px 0px rgba(0, 0, 0, 0.25) inset;
+	--bg-select-team: #F5F5F5;
+	--tack-bg: #d1d1d1;
+
+	--hover-btn: #ebebeb;
+
+	--check-box-checked: #6CFF69;
+}
+
+.dark {
+	--bg-body: url('./../images/bg-black.jpg');
+	--title-text: #FFF;
+	--text: #FFF;
+	--box-shadow: none;
+	--bg: #0B0B0B;
+	--arrow-down: url('./../images/icon/arrow-down-white.svg');
+	--input-placeholder: rgba(255, 255, 255, 0.51);
+	--hover-color: #070707;
+	--color-select-chapter: linear-gradient(91deg, rgba(225, 45, 186, 0.34) 41.5%, rgba(255, 219, 247, 0.34) 90.47%), rgba(217, 217, 217, 0.03);
+	--color-border-tack: #FFF;
+	--border: 1px solid #D2AFFF;
+	--color-icon-team: white;
+	--color-point-team: #242424;
+	--shadow-select-team: none;
+	--bg-select-team: #141414;
+	--tack-bg: #0B0B0B;
+
+	--hover-btn: #211722;
+
+	--check-box-checked: #6CFF69;
+}
